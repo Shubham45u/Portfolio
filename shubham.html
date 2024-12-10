@@ -1,0 +1,186 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        color :#333;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        background-image: url("R.jpg");
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+        cursor: default;
+    }
+    .header{
+        display:flex;
+        padding:1em 2em;
+        justify-content: space-between;
+        align-items:center;
+        background-color: rgb(238, 21, 21);
+       max-width: 100%;
+    }
+    .nav-links {
+        display: flex;
+        gap: 4em;
+        background-color: rgb(124, 13, 13);
+        width: 100%;
+        color: white;
+        
+        }
+    #footer{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: aqua;
+        padding-top: 20px 0;
+        margin-top: auto;
+    }
+    .logo-links2{
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+        }
+        .sidebar{
+            background-color: black;
+            color: #a21010;
+            padding: 20px;
+            width: 100%;
+            flex: 1;
+        }
+        .sidebar .general{
+            margin:5px 0;
+            font-size: 14px;
+
+        }
+        .sidebar .div2 img{
+            border-radius:100%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            
+
+        }
+        .sidebar .general h2{
+            margin-bottom: 10px;
+            font-size: 18px;
+            padding-inline-start: 50px;
+        }
+        .main-content {
+            padding: 40px;
+            width: 70%;
+            background-image: url("Shubham.jpg");
+            flex: 3;
+            background-color:peachpuff;
+        }
+        .freelance-btn{
+            color: bisque;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: brown;
+        }
+        .packet{
+         display: flex;
+         border-radius: 10px;
+          box-shadow: 0px 4px 10px rgba(0 0 0 0.1);
+         margin: 0; 
+         max-width: 100%;
+         height: auto; 
+         flex-grow: 1;
+         gap: 20px;
+         padding: 20px;
+        }
+        
+        
+        #Description{
+            color:blue;
+        }
+        .logo{
+            font-size: 28px;
+            color: #a21010;
+            background-color: antiquewhite;
+            font-style:italic;
+        }
+    
+  </style>
+  </head>
+  <body>
+    <div>
+   <header class="header">
+    <div>
+        <nav class="nav-links">
+            <a class="logo">Shubham.CV</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Services</a>
+            <a href="#">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Testinomials</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+   </header>
+   <div class="packet">
+    <main class="main-content">
+        <h1 style="color: brown;"><b>Shubham Kumar</b></h1>
+       <h2 style="color:green;">Web developer and Ethical Hacker</h2>
+    
+            <section>
+            <h1 id="Description">Description</h1>
+            <p>I am a highly skilled web developer with extensive experience in designing and developing 
+                dynamic websites and engaging web pages tailored for social media platforms and personal 
+                projects. My expertise extends to ensuring the security and reliability of digital platforms 
+                by identifying and addressing vulnerabilities in websites and network infrastructures.
+                Beyond web development, I have a strong proficiency in 3D modeling and design, leveraging 
+                Autodesk Inventor to create and edit complex models with precision and creativity. My diverse 
+                skill set allows me to deliver innovative solutions, combining technical expertise with a keen 
+                eye for design and security best practices.s
+            </p>
+            </section>
+            <button class="freelance-btn">Available for freelance work</button>
+            
+            </main>
+            <div class="container">
+            <aside class="sidebar">
+            <div class="div2">
+              <img src="WhatsApp Image 2024-12-10 at 10.51.09_f56f8ca7.jpg" alt="profile-pic">
+            </div>
+            <div class="general">
+                <H2>GENERAL INFORMATION</H2>
+                <P><STRONG>Name :</STRONG>Shubham Kumar</P>
+                <p><strong>Location :</strong>Ghaziabad, India</p>
+                <p><strong>DOB :</strong>NOVEMBER 17,2006</p>
+            </div>
+            </aside>
+        </div>
+    </div>
+    <div class="fff">
+    <footer id="footer" >
+        <h1>Follow us on</h1>
+        <div class="logo-links2">
+        <a> whatsapp</a>
+        <a> Linkedin</a>
+        <a>Facebook</a>
+        <a>instagram</a>
+        </div>
+    </footer>
+    </div>
+    
+   </body>
